@@ -1,0 +1,97 @@
+/* Formatação da minha pagina*/
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Josefin Sans', sans-serif
+}
+/* Meu fundo de tela*/
+.background{
+    background-image: url(FundoTela.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+}
+
+nav{
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 45px;
+padding-left: 8%;
+padding-right: 8%;
+}
+
+nav h2{
+    color: #fff;
+    font-size: 35px;
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+
+/* Formatação do Portifolio*/
+span{
+    color:#28276ddd
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 10px 25px;
+    list-style-type: none;
+}
+
+nav ul li a{
+    color: #28276ddd;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.btn{
+    background-color: #3b39a2dd;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transfora.4s;
+}
+
+.btn:hover{
+   transform: scale(1.2) ;
+}
+/* Apresentação da minha tela inicial com meu nome*/
+.Main{
+   position: absolute; 
+   top: 30%;
+   left: 8%;
+   transform: translateY(-50);
+}
+
+h4{
+    color:#fff;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+h1{
+    color:#201f3fdd;
+    margin: 20px 0px 20px;
+    font-size: 60px;
+}  
+
+h3{
+color:#fff;
+font-size:25px ;
+margin-bottom: 50px;
+}
+/* Formataçã footer tela pricipal*/
+h5{
+    color:#6721bd;
+    letter-spacing:0px;
+    font-size: 15px;
+    position:absolute; 
+    left:1%;
+}
