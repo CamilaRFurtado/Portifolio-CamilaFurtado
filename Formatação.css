@@ -65,7 +65,7 @@ nav ul li a{
 /* Apresentação da minha tela inicial com meu nome*/
 .Main{
    position: absolute; 
-   top: 20%;
+   top: 30%;
    left: 8%;
    transform: translateY(-50);
 }
